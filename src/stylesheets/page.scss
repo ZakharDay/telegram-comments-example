@@ -3,10 +3,15 @@ body.page {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: var(--white);
   background: #15202b; // Telegram comments dark theme background color
 
   & > div,
   & > a {
     margin: 10px 0;
+  }
+
+  & > a {
+    color: var(--white);
   }
 }
